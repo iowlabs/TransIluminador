@@ -9,6 +9,7 @@ Para efectos de la instrumentación, consiste en un dispositivo que controla una
 - Tiempo de exposición.
 
 En algunos dispositivos más complejos existen variables como tipos de curva de iluminación, o algunos cuentan con cámaras para la obtención de imagenes en el dispositivo mismo.
+asdavsd
 
 
 ## Requisitos del dispositivo.

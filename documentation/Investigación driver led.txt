@@ -24,3 +24,15 @@ Datasheet: https://www.analog.com/media/en/technical-documentation/data-sheets/M
 
 Existe la posibilidad de hacer una fuente de corriente con 2 PNP y 2 resistencias, la corriente resultante sera producto de ambas resistencias, se puede utilizar una entrada logica o directa para el funcionamiento, se puede reemplazar una ressitencia con un potenciometro y conseguir una fuente variable
 Revisar archivo Modulo de corriente.asc
+
+
+Se decanto por un control de corriente por medio de voltaje, se utiliza un npn de 25V y 5A, llamado FZT1049ATA, de empaquetado SOT-223-4
+
+Para controlar la corriente por voltaje se utiliza un OpAmp, requiere más investigación
+
+Para entregar el voltaje de referencia al OpAmp se utilizara un DAC, utilizando un modelo I2C, se utiliza un MCP47CMB DAC de dos canales, de empaquetado MSOP-10
+Se colocara la dirección base a tierra de los pines A0 y A1 debido a que no se utilizara más de un modelo de estos.
+
+Se planea realizar una implementación en paralelo de control por perilla analogica sin controlador
+
+Se requiere investigar sensor de luminocidad.

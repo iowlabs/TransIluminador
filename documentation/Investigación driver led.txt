@@ -27,12 +27,20 @@ Revisar archivo Modulo de corriente.asc
 
 
 Se decanto por un control de corriente por medio de voltaje, se utiliza un npn de 25V y 5A, llamado FZT1049ATA, de empaquetado SOT-223-4
+Link de elemento: https://www.mouser.cl/ProductDetail/Diodes-Incorporated/FZT1049ATA?qs=zhx2xqPtQQzttBmuRapCWg%3D%3D
+
 
 Para controlar la corriente por voltaje se utiliza un OpAmp, requiere más investigación
+Actualización, se decanto por un OPA735, un OpAmp de single supply y single channel, con alimentación de tierra y 12 V
+Link de elemento: https://www.mouser.cl/ProductDetail/Texas-Instruments/OPA735AIDBVR?qs=wgAEGBTxy7m%2FFkPPL6NV4Q%3D%3D
+
 
 Para entregar el voltaje de referencia al OpAmp se utilizara un DAC, utilizando un modelo I2C, se utiliza un MCP47CMB DAC de dos canales, de empaquetado MSOP-10
 Se colocara la dirección base a tierra de los pines A0 y A1 debido a que no se utilizara más de un modelo de estos.
+Link Elemento: https://www.mouser.cl/ProductDetail/Microchip-Technology/MCP47CMB22-E-UN?qs=byeeYqUIh0PhcmmltggZMA%3D%3D
+
 
 Se planea realizar una implementación en paralelo de control por perilla analogica sin controlador
+NUEVO ESTADO: se mueve el controlador a la placa de los leds, una salida del DAC de la PCB con microcontrolador va al controlador led y con un switch se selecciona entre DAC o Potenciometro
 
 Se requiere investigar sensor de luminocidad.

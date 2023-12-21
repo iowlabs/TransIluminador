@@ -2946,13 +2946,13 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 50.8 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b7a56cf-3a24-4220-854f-37add5e8829b)
-    (property "Reference" "J1" (at 51.435 120.65 0)
+    (property "Reference" "VADC1" (at 51.435 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x02_Pin" (at 51.435 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 50.8 125.73 0)
+    (property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" (at 50.8 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.8 125.73 0)
@@ -2963,7 +2963,7 @@
     (instances
       (project "LEDs_10x10"
         (path "/430e6ebd-258a-4614-8294-6e3f366aedfb"
-          (reference "J1") (unit 1)
+          (reference "VADC1") (unit 1)
         )
       )
     )
@@ -3747,13 +3747,13 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 102.87 29.845 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd12d7bf-4a7e-4e79-b371-2629478aa15a)
-    (property "Reference" "J4" (at 103.505 22.225 0)
+    (property "Reference" "Alimentaciones1" (at 103.505 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x03_Pin" (at 103.505 24.765 0)
+    (property "Value" "Conn_01x03_Pin" (at 103.505 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 102.87 29.845 0)
+    (property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" (at 102.87 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 102.87 29.845 0)
@@ -3765,7 +3765,7 @@
     (instances
       (project "LEDs_10x10"
         (path "/430e6ebd-258a-4614-8294-6e3f366aedfb"
-          (reference "J4") (unit 1)
+          (reference "Alimentaciones1") (unit 1)
         )
       )
     )

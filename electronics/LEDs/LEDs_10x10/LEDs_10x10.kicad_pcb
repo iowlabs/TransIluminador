@@ -1,0 +1,2408 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(net 1 "Vboost")
+	(net 2 "Net-(D1-K)")
+	(net 3 "Net-(D2-K)")
+	(net 4 "Net-(D3-K)")
+	(net 5 "Net-(D4-K)")
+	(net 6 "Net-(D5-K)")
+	(net 7 "Net-(D6-K)")
+	(net 8 "Net-(D7-K)")
+	(net 9 "Net-(D8-K)")
+	(net 10 "Net-(D10-A)")
+	(footprint "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "20c63239-0b28-457c-a2ea-34749d3dea94")
+		(at 102 35)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D3"
+			(at 0 -2.65 0)
+			(layer "F.SilkS")
+			(uuid "0f70a8fa-3bcd-4635-a8e1-a4feaa16d737")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at -5.5 2.4 0)
+			(layer "F.Fab")
+			(uuid "66d6ddae-31d3-44b7-a410-2fc7fd83871b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13ce2004-0a62-4ca7-be5f-9ac1d7984111")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86d06ff8-c652-472f-a7f2-9bce03e12d10")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20237839-f55d-4469-a58e-c3a9b9887209")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/a632a557-476e-4816-9cb9-056e2e7f28a1")
+		(sheetname "Root")
+		(sheetfile "LEDs_10x10.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.500044 -1.5)
+			(end 1.95 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "713ae460-e1b7-4cd4-bd34-be6419721036")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6506134b-a79a-4d5e-9c30-9602371ec665")
+		)
+		(fp_line
+			(start -1.95 1.5)
+			(end 1.95 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8bdfdbc7-a48a-4dce-8f6a-9dcd3e7b78c6")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "90c44e59-2672-403c-b4b4-3d244db97fc2")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aeec4d85-4e24-4811-bb8f-244d4fb4d986")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "60223d53-dfd7-4a5f-af13-d9f167428a6a")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bd9a6a76-cb9c-4333-bc58-1236e6a5eaf9")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4366dd17-2265-4f5a-b44c-b25853a8d6be")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a3028320-e43a-4d6f-a6fc-35e9d4ef25be")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7c2b352c-6d6e-4446-88f9-022d4a9840c1")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "87ad5620-a7d6-42a5-848b-a2a6a8111dec")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "883acdb1-753e-4018-b242-2bdddf711dfa")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "4dfd24a7-4034-49da-bef8-5d7c4be55dc7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "eb29deb4-6c54-495c-8331-f690505797be")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 4 "Net-(D3-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "b1e8c725-1b24-4298-931a-ed3c97414749")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "Net-(D2-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "02dde116-b3f4-47a7-b0a1-9d1648924f25")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "955ddf85-45a1-401a-ad20-7fdfc7a24dc6")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "23478df0-6b9e-429d-8e45-1518a12a1ae0")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC4_3.2x2.8mm_CW.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "3c59171f-bd2b-4e1d-ad90-b8f571ced54e")
+		(at 96 45.4)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D8"
+			(at -2.2 2.75 0)
+			(layer "F.SilkS")
+			(uuid "e0853e25-3624-45b7-8512-0ee3ca0117c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 0)
+			(layer "F.Fab")
+			(uuid "c34ed3e9-9972-40c2-bdbe-a1aa200b3822")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9691a661-faba-43e1-936e-320c531ee927")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9b1b37f-8e83-4028-a8f0-0c38dabb0aca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7621918-df80-491c-8d53-cfb18a48bb6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/6ef80cac-4d0c-4b46-86a8-fc7f864e5344")
+		(sheetname "Root")
+		(sheetfile "LEDs_10x10.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.500044 -1.5)
+			(end 1.95 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39db99dc-e157-46c2-af14-e67469b80b31")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8429379b-4f11-40d1-bad4-02b402439129")
+		)
+		(fp_line
+			(start -1.95 1.5)
+			(end 1.95 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "27232056-80f5-49eb-abee-85778a18b9b1")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5c9eb845-3d2e-4f2c-86f2-dfc808608dfb")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ec9ad1f2-eca1-49fc-ad2e-77c2de56f5ee")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "36efaa28-b567-4661-a1a9-49dafe9f57ab")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1bca31e0-1224-42e9-81fb-9c08725fc6ad")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca99f697-1317-4996-8865-c666b718de75")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4e159770-0eb4-4362-85b6-dad60017ec4b")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "31e11fba-7c13-4321-b2b4-7409d28a80b1")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2efb0818-a140-4453-99f2-1301b1382625")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e903ef9f-4394-4015-bd7e-5a2d026eaf32")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "c268bbe3-79b4-481c-b455-f9afdbe50acd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "40ba5113-537e-49f5-a29d-4ed8019c0805")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 9 "Net-(D8-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "b9c6e613-f5df-43ba-bd8b-d7f0fb90e04d")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 8 "Net-(D7-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "57f92231-48a0-4442-8492-a9a7f167cbee")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "2c76386f-9b4d-480a-95f7-c70cf8f014c2")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "1014c2f7-2381-46d6-88b8-35476721729d")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC4_3.2x2.8mm_CW.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "85a884de-3581-4f41-9276-db1e18970bc8")
+		(at 99 40)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D6"
+			(at 0 -2.65 0)
+			(layer "F.SilkS")
+			(uuid "23b70a92-7b29-469a-90f1-db17a425125d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 0)
+			(layer "F.Fab")
+			(uuid "09269692-69ef-4a10-abd7-f588cde278d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e99442e-422e-45d3-a2e2-c0941b270237")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "954d50ed-0175-4b31-ace5-4bfe39b93eff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec9d5ad7-4d24-414b-9013-ea9efb462253")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/1311a520-dd96-4263-bcb7-30e83bdc2b78")
+		(sheetname "Root")
+		(sheetfile "LEDs_10x10.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.500044 -1.5)
+			(end 1.95 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bea3e2eb-0ff4-46c2-9397-3b83842b6ae0")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "071a6340-7251-458a-9429-19cd04f8c602")
+		)
+		(fp_line
+			(start -1.95 1.5)
+			(end 1.95 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "34631411-694c-40f1-9f06-102f1cf84ba7")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e5b9612f-aaac-4dfb-9ea0-6182a5c5266f")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7cbac190-2a11-4e34-b7c1-a9f7937fb1e3")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5a4ef34f-e6f1-409c-983e-4d1ad4f29c8d")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ba8d5d4b-a523-430b-a2d4-5b6c6e376768")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7fcfacc5-044b-488e-ad2f-f1cd7fb4ae47")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4ae6a54a-5e65-44a7-96db-3f2e7bba8479")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cb157f16-064e-4ca4-a788-8f1a70cd1cc9")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1c6e7ee1-3e0f-4469-9718-bf45b6c5e8eb")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ab8c430b-881d-4016-b8ab-967bf1fbff27")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "65dac3ff-0e66-45ff-a039-eefd50d3f224")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5ad18ec7-772e-4192-9e7a-50e1b1de449e")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 7 "Net-(D6-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "8539cf62-f6d4-4951-97f3-e7939ce65be1")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 6 "Net-(D5-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "4d507b38-920c-4e2c-9d81-049add638ff8")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "191a4dc5-8be0-4a6a-a0dd-f84fb7fc88c1")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "d9e997ce-9592-4e3c-94af-49a0d7cd3279")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC4_3.2x2.8mm_CW.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "8702146e-3c96-45ce-a173-bbe3e668e659")
+		(at 93 40)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D5"
+			(at 0 -2.65 0)
+			(layer "F.SilkS")
+			(uuid "ca6f4674-ea41-401b-a6c2-7862d0190023")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 0)
+			(layer "F.Fab")
+			(uuid "6bd38198-8829-4029-b214-a4a114f58f69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9021d938-8115-4529-8c2b-f6713afa5034")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9835ba06-165c-4159-a06c-6b39aaf68ede")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10bf61e9-7332-47dd-9fa4-4bc3a59e6f64")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/9f70958e-6a84-4a36-aa9d-098dd668303e")
+		(sheetname "Root")
+		(sheetfile "LEDs_10x10.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.500044 -1.5)
+			(end 1.95 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "79f7fedb-5edb-4409-ae63-0b357e411407")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fd660259-45fd-4c7a-8211-72961a034066")
+		)
+		(fp_line
+			(start -1.95 1.5)
+			(end 1.95 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "828bec96-a45f-4eca-89ae-bfb6204e6162")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3af9b1dd-2f53-437d-b532-43c31a2caccd")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0f1f7e9f-c906-4975-950c-65dc56b4551f")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4a15d1e6-67b0-406d-b16f-1257985a9cdc")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "48079c09-41fb-44c3-87f9-2f3d9b976e30")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ccc7086f-4159-44cd-994c-2a90a6e51a20")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "75700c2c-81c9-4ba2-a434-66138dce9994")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "28f4f119-0c83-4d52-a30c-78854e8ea04d")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f5d2419c-340a-4b4f-ac74-1b224b0a19ae")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0700cd84-1a3b-4cbd-bf87-b1e24cb5c75e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "a9d1ccd2-379c-47cb-9ee0-ba9b1ee54cf9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a8c43264-6f95-4025-9e0e-e1d7dbb29c45")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 6 "Net-(D5-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "9626b2c4-0a1b-403c-a902-f349dd4ebbf6")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 5 "Net-(D4-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "0fbf12c6-1e86-42f1-8c84-32302ca2f0f5")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "755c7f4d-c12f-4071-8746-4174e0e83fef")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "6487307b-125b-4606-a05e-c63d348e6e3d")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC4_3.2x2.8mm_CW.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "8bc5577d-f963-44ad-bce1-d47a2ce72849")
+		(at 87 40)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D4"
+			(at 0 -2.65 0)
+			(layer "F.SilkS")
+			(uuid "3ee2b6f1-b8ee-4a3a-acff-367a8f27ba6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 0)
+			(layer "F.Fab")
+			(uuid "64b8048b-e31d-42dc-aab2-ffe1a82fdd3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cb2410b-e757-4df7-83de-8326a58581b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08dc129f-4c25-4f54-b8f4-70f12a8b1dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4b05496-5689-4080-96be-bd0f53c024a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/7abc2255-a8fa-47b3-aaf0-9997af3496b6")
+		(sheetname "Root")
+		(sheetfile "LEDs_10x10.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.500044 -1.5)
+			(end 1.95 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e869ebd9-14a3-4a20-8a07-d5af10ada4e8")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "642a4dcb-4237-42f4-aed7-98cc012db33f")
+		)
+		(fp_line
+			(start -1.95 1.5)
+			(end 1.95 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "64cf2b9f-2bfb-426d-acc4-909e19854702")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "46faf7e0-5092-4524-9fef-abd8dc0b10f2")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eb16c178-b383-4cb1-a82c-4d94b76bbfa6")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8edf3495-ba21-4585-820d-012ac3a9ec90")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "70654c5f-3e37-498f-9281-7d0c1e358484")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "48aa0054-71ce-4926-81b2-d3b4e199ea39")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f6f6b06a-1fb5-4374-891f-95e30918e422")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eb67181c-5900-42f2-ac8a-22a72949d66a")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4099f2d2-27c0-48a4-954b-adffa339c006")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cde2779a-9c68-4d34-bb00-303352a8ca9b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "cc618385-0d0e-42e3-a48d-dddaed8af043")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.5 -0.25 0)
+			(layer "F.Fab")
+			(uuid "0c128533-187b-4a93-8f71-3c2a827f2cbb")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 5 "Net-(D4-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "263fd317-1069-4d64-a1f8-d58cfdf873c2")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 4 "Net-(D3-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "81c15400-718f-4cb3-959c-1ad07f1bb8dd")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "3198f730-7b4c-443a-a43b-303485807132")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "d665731c-09bb-4ccb-8850-7898354deb81")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC4_3.2x2.8mm_CW.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "b235de9e-f1ec-4435-bc5a-2ee802b8dbd5")
+		(at 90 35)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D1"
+			(at 0 -2.65 0)
+			(layer "F.SilkS")
+			(uuid "9a9b1c92-92c7-4b5f-89df-2c9ec07e55ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at -5.5 2.4 0)
+			(layer "F.Fab")
+			(uuid "cb1b85e3-4b59-42ad-bd57-48e2bee6446e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8716295f-4241-4833-8c85-276dabffcd7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2d96524-9cc1-4606-8b4c-f07cea2f4190")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79e17590-c019-4689-bd55-7ec88a9c1b97")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/e14d913d-3a74-497b-ac4b-f89502e6168c")
+		(sheetname "Root")
+		(sheetfile "LEDs_10x10.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.500044 -1.5)
+			(end 1.95 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "13dc0481-c1f2-4105-886a-32969a4143d2")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3dd2a42d-ebc5-4aa4-92bc-7bc39091d2b6")
+		)
+		(fp_line
+			(start -1.95 1.5)
+			(end 1.95 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "09ab7a6b-8fb1-4e01-9e2d-1428ff68099f")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e8ce35b7-b277-4009-a3b2-ac74cfc36247")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e36cc7f7-e270-4cde-ad79-78eb44dd4720")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ba6a6f88-6ddc-427b-91e8-cacfac163ff6")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "16d7f067-a515-40af-acf6-bd5e206f532c")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dec5613c-0752-4d2b-a2a2-ecfff9e6b209")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dddacd60-9d17-48d3-a881-9589b4f6ba31")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "46a64755-1b7e-4d94-879c-de7ee2ebf9f9")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "03cbf6fc-78ef-4d4a-b97a-f3217b647279")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cd4992cf-ac31-441c-a0b8-802f2714b90f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "f2143ee1-94a6-4178-b8f2-fabbe301766c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.13 0)
+			(layer "F.Fab")
+			(uuid "682e575d-ae7e-42ae-ab26-ef611861cbf5")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "Net-(D1-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "7d58d442-4873-431e-9d8a-00f9866c59dd")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "Vboost")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "0a6fe571-9cc7-4a59-88a4-bba22125e400")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "37feee3f-3436-4f14-b87e-372534e66964")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "edc8c3f8-dfb1-4a7b-8f92-b845768254db")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC4_3.2x2.8mm_CW.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "c7b3649b-6555-4ac6-b26a-b5967c256ce4")
+		(at 102 45.4)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D9"
+			(at -2 3 0)
+			(layer "F.SilkS")
+			(uuid "0ec0afe5-b38c-4bd8-a061-3f4393b0771b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 0)
+			(layer "F.Fab")
+			(uuid "9c9712cd-3993-4d92-8e38-3ce960705f7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d07e874-1975-4212-af31-9e910e2efe5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f29ce8c-1249-421c-9c01-3b0ef9f64d14")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96f03ef3-f9fe-436d-9119-53e85b3df6f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/fd0b0f97-eb7c-4cf7-b73b-9c6c2a52c996")
+		(sheetname "Root")
+		(sheetfile "LEDs_10x10.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.500044 -1.5)
+			(end 1.95 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "14d147cc-3c57-44d2-abcb-03d0b4e8f6df")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4b5f4ef2-21a3-433f-abde-f82f96f40614")
+		)
+		(fp_line
+			(start -1.95 1.5)
+			(end 1.95 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d5f63479-1a3e-458c-867f-4b0eaf8d01da")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f10ef009-ae9c-4873-b393-2d7872896d37")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "de0cf973-0b59-4be9-91c6-8c38e4f9b9e6")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "59805d1d-33a6-4bcb-a9b0-dcecd114b39c")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e8d94a9a-7f7f-4a63-b0ba-73bbc3a0a20a")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dcbd8695-2cdc-46d2-8463-7a624a5016a2")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "246897c8-e4e3-40f4-a17d-6df1c26dd7b5")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "60affbf9-a5ec-4170-b61e-1852b7524c78")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2cb70393-436b-4e48-8955-348da58362d8")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c4900bab-9ddd-485d-9a49-77eb3c3b31b0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "24006cbe-ef57-4de9-9881-fd4b75aff0ca")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "dec2dd63-d8d3-4f0b-99f6-4db1d6ff8aaf")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 10 "Net-(D10-A)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "fe780666-c86d-4897-acdd-fec1fbc6bbbc")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 9 "Net-(D8-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "e01315e0-a48d-452a-88a1-af1b9a033bb7")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "290c9c53-c88d-49cf-b49c-f2a12d3119ba")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "59866534-fa17-45a7-ba5d-ca4a39cc4860")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC4_3.2x2.8mm_CW.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "cfb579c9-416f-4fcd-8f4b-f2a49b69b80a")
+		(at 96 35)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D2"
+			(at 0 -2.65 0)
+			(layer "F.SilkS")
+			(uuid "87747eca-c132-4734-96b0-2a06722f8e6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at -5.5 2.4 0)
+			(layer "F.Fab")
+			(uuid "28ace4b7-647f-42b9-936d-be61fc32533a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1df90a1-a5bf-4656-a880-eefbab17e017")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54c4db12-6ab6-47a4-a5f4-6f64dd7e1486")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0dd1c1a3-e3ac-406b-a787-b8c750a49571")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/db0d94e2-6682-4ce0-8b5b-8ef244941822")
+		(sheetname "Root")
+		(sheetfile "LEDs_10x10.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.500044 -1.5)
+			(end 1.95 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "65a5a272-4ec2-465b-af61-c6690ca5a138")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7e05c679-1bce-4a4f-9abe-f851bd1ad37f")
+		)
+		(fp_line
+			(start -1.95 1.5)
+			(end 1.95 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f045604d-9b2b-4fd9-bfd6-ba2fd37d479e")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d38738a5-c708-49dc-9d38-b84cd9341464")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0198a242-f54a-493c-a9e9-63184de319bd")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8e95e43b-4eab-4bad-8af2-edba7e01af9c")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0c061c63-29b5-42c0-b96d-13f04f1f3838")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "adef9e54-4e8a-4551-a8de-27b15fbf6cbf")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a00fcaaf-39b3-4806-b51e-3cb15fbf1b7a")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3473ee21-0b0e-4c87-81a2-69c90625feb4")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cf5070c5-9ed3-48ff-be12-4c84c2157d8f")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb79dd6f-db15-40fe-a9b2-8008d43f528c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "d671c177-95f7-4e35-997d-caf2a9846514")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0a6d12d1-88a7-49d8-98f3-f5ab95abbeed")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "Net-(D2-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "a2f53791-8d95-4c31-ba5b-efb95aed3747")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 2 "Net-(D1-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "c6b5ff2a-dbde-4ef0-99f4-b33164495406")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "12107970-03a5-423d-8bd7-de4b1baa8699")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "ec30865d-11f1-47fb-af85-6848c9946bd7")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC4_3.2x2.8mm_CW.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+		(layer "F.Cu")
+		(uuid "f1202e30-d251-4ac2-a243-ea92f39e5e03")
+		(at 90 45.4)
+		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://docs.broadcom.com/docs/AV02-4186EN")
+		(tags "LED Avago PLCC-4 3528 ASMB-MTB0-0A3A2")
+		(property "Reference" "D7"
+			(at -3 2.75 0)
+			(layer "F.SilkS")
+			(uuid "6e0d466d-14e3-485f-a469-7626c091c072")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 2.65 0)
+			(layer "F.Fab")
+			(uuid "447dab53-70b6-4e27-9b19-bdbf1c2ef93d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25898824-7885-4c2e-b333-7aa42c74cefc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11384a50-fdcf-4d93-874b-3ca7eb38192f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84bbfa73-ff5f-4dc5-a5e5-8c8238f290ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/71ed3956-1188-4c1a-aa78-bbb488108455")
+		(sheetname "Root")
+		(sheetfile "LEDs_10x10.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.500044 -1.5)
+			(end 1.95 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f42059ed-b01c-4af0-a098-c498fa2c8c83")
+		)
+		(fp_line
+			(start -2.5 -0.7)
+			(end -2.5 -1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ab6c40b0-8ec3-42f6-bab3-9603b21c8582")
+		)
+		(fp_line
+			(start -1.95 1.5)
+			(end 1.95 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8e7c483d-55d9-4c8d-8a0a-4f6d74dc1795")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "70a73b34-5b48-4710-8811-fe92652c04d8")
+		)
+		(fp_line
+			(start -2.5 -1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "31271735-d4c6-444a-9843-384fd2ca315c")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end -2.5 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0a7ad43f-aab9-4046-9e19-edb08d7ff708")
+		)
+		(fp_line
+			(start 2.5 1.65)
+			(end 2.5 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "42cebb0b-4a0a-46a6-8139-ef9650c84608")
+		)
+		(fp_line
+			(start -1.6 -1.4)
+			(end -1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bc27a5aa-dbe1-496e-bbc5-4a010a84af03")
+		)
+		(fp_line
+			(start -1.6 1.4)
+			(end 1.6 1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "43f122be-4613-4168-b191-bcd27c4f7ef6")
+		)
+		(fp_line
+			(start -0.6 -1.4)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4b693951-0a6c-493d-93aa-ab111966af56")
+		)
+		(fp_line
+			(start 1.6 -1.4)
+			(end -1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9c7f9285-47a6-48be-9715-8e0d151481a7")
+		)
+		(fp_line
+			(start 1.6 1.4)
+			(end 1.6 -1.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a6f49de7-3c9c-4eca-bcae-a8f0cd509dd1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.12 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "c4a5e639-d97d-462a-a161-e5c373a08687")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "d7a2f0d1-b638-431a-b6c6-1ef2722b8dc3")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 8 "Net-(D7-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "23e49f82-1be6-4908-a77d-d2293875388b")
+		)
+		(pad "2" smd rect
+			(at 1.5 -0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 7 "Net-(D6-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "42b1ae1c-30a6-44ea-9a92-a0cfb3474565")
+		)
+		(pad "3" smd rect
+			(at 1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "f5f42ba4-de74-4933-b591-da22c0b2cb28")
+		)
+		(pad "4" smd rect
+			(at -1.5 0.75)
+			(size 1.5 1.1)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(uuid "83996669-29f5-4698-ac69-b49b5aa41cdb")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Avago_PLCC4_3.2x2.8mm_CW.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_rect
+		(start 79.6 25.4)
+		(end 203.65 97.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "2b83d532-7700-4c33-9c77-a16a24fe7156")
+	)
+)

@@ -8574,6 +8574,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 59.436) (xy 222.504 59.436)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd671e8-5461-4c1b-91f4-9d93f59e5d13")
+	)
+	(wire
+		(pts
 			(xy 273.685 153.035) (xy 273.685 155.575)
 		)
 		(stroke
@@ -8981,6 +8991,16 @@
 			(type default)
 		)
 		(uuid "5df5538e-cd58-4721-8d2b-b777fa92e1d9")
+	)
+	(wire
+		(pts
+			(xy 221.234 54.864) (xy 222.504 54.864)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "610a4752-3e3d-4e41-8e3f-1ed4610d8374")
 	)
 	(wire
 		(pts
@@ -12994,6 +13014,28 @@
 			)
 		)
 	)
+	(global_label "Vdac2"
+		(shape input)
+		(at 220.98 59.436 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "554952e2-230e-4540-89b2-d21402eb84ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.3101 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VS_3V3"
 		(shape input)
 		(at 138.43 153.035 180)
@@ -13777,6 +13819,28 @@
 		(uuid "dd663cfe-24b2-46ee-af11-304c654ff602")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.2315 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vdac1"
+		(shape input)
+		(at 221.234 54.864 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1f40416-c458-4f76-956c-b7f1263e8188")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.5641 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19261,6 +19325,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 227.584 54.864 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "684e85be-a2de-4a19-8473-6ee228ea4a0b")
+		(property "Reference" "Dac1"
+			(at 226.949 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC1"
+			(at 226.949 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 227.584 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.584 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.584 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b9a09cc-d40a-422a-90ab-370698226334")
+		)
+		(instances
+			(project "Transiluminador"
+				(path "/3bccb558-cfc1-47b0-87de-a688fdd981c6"
+					(reference "Dac1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "IoWLabs:RES")
 		(at 273.05 34.925 270)
 		(unit 1)
@@ -23471,6 +23600,70 @@
 			(project "ESP32_iow-Labs_v1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 227.584 59.436 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba3c9cd1-92c6-4af4-8356-ae939dcdace6")
+		(property "Reference" "Dac2"
+			(at 227.584 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DAC2"
+			(at 227.584 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile"
+			(at 227.584 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.584 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.584 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6de089b6-2546-4cdd-8bf1-f6c09be644fb")
+		)
+		(instances
+			(project "Transiluminador"
+				(path "/3bccb558-cfc1-47b0-87de-a688fdd981c6"
+					(reference "Dac2")
 					(unit 1)
 				)
 			)

@@ -643,6 +643,166 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -7511,6 +7671,12 @@
 		(uuid "afffa7c3-695d-48d5-9b9f-ed4d0db75cb9")
 	)
 	(junction
+		(at 620.522 41.402)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc55c248-fc99-4d26-b8f9-c352d84d7506")
+	)
+	(junction
 		(at 265.43 34.925)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7705,6 +7871,16 @@
 			(type default)
 		)
 		(uuid "020f777a-b116-45f8-ba31-95ab879f708a")
+	)
+	(wire
+		(pts
+			(xy 620.522 49.53) (xy 620.522 51.943)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031501c7-92b2-45e7-b200-84cf88ad9369")
 	)
 	(wire
 		(pts
@@ -7945,6 +8121,16 @@
 			(type default)
 		)
 		(uuid "14894d72-7e37-45de-97c3-b7d161c91ed3")
+	)
+	(wire
+		(pts
+			(xy 620.522 28.321) (xy 620.522 36.576)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14db1c9a-373b-4302-a812-1942b594d292")
 	)
 	(wire
 		(pts
@@ -8228,6 +8414,16 @@
 	)
 	(wire
 		(pts
+			(xy 609.854 41.402) (xy 620.522 41.402)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3f7ce1-663b-49d7-ac36-55a4dd79cc71")
+	)
+	(wire
+		(pts
 			(xy 202.565 112.395) (xy 202.565 113.665)
 		)
 		(stroke
@@ -8415,6 +8611,16 @@
 			(type default)
 		)
 		(uuid "40b95e52-3a75-4844-88f1-0255f60c3c73")
+	)
+	(wire
+		(pts
+			(xy 620.522 41.402) (xy 620.522 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f5dea8-21ec-460b-a08a-117e2effa6e2")
 	)
 	(wire
 		(pts
@@ -9035,6 +9241,16 @@
 			(type default)
 		)
 		(uuid "7baec533-e3c7-4f37-9125-bf493204bc94")
+	)
+	(wire
+		(pts
+			(xy 620.522 39.116) (xy 620.522 41.402)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd742b4-c936-40f8-bb8e-7c2788300de5")
 	)
 	(wire
 		(pts
@@ -10707,6 +10923,18 @@
 		(uuid 78abfa3c-f853-409f-a04e-8acba36c8bca)
 	)
 	(rectangle
+		(start 586.994 18.415)
+		(end 648.462 60.706)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8021d580-b32e-43c8-a9e9-d0aac1e6e1f7)
+	)
+	(rectangle
 		(start 241.3 18.415)
 		(end 319.405 63.5)
 		(stroke
@@ -11741,6 +11969,19 @@
 		)
 		(uuid "f02cc73c-4835-4836-a805-964639c4cfca")
 	)
+	(text "Sensor de Temperatura"
+		(exclude_from_sim no)
+		(at 591.693 24.13 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+				(thickness 0.5994)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2a79528-70bb-40cd-b666-902e379565b7")
+	)
 	(text "Datalogger ON - LED"
 		(exclude_from_sim no)
 		(at 164.465 145.415 0)
@@ -12665,6 +12906,50 @@
 			)
 		)
 	)
+	(global_label "Temp"
+		(shape input)
+		(at 609.854 41.402 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "494184c9-a91b-40ec-8be7-489b83e833ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 601.9703 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Temp"
+		(shape input)
+		(at 367.03 103.505 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49827827-c6e5-4592-a46e-d7a2138d5a39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 374.9137 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 419.735 42.545 180)
@@ -13492,6 +13777,28 @@
 		(uuid "dd663cfe-24b2-46ee-af11-304c654ff602")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.2315 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VS_3V3"
+		(shape input)
+		(at 620.522 28.321 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2b0225a-c824-4ddc-abce-939d1cc46143")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 610.7635 28.321 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19137,6 +19444,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 620.522 51.943 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ccdfeac-5a5d-4a7b-9c2b-f8faff9e8fa4")
+		(property "Reference" "#PWR052"
+			(at 620.522 58.293 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 620.649 56.3372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 620.522 51.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 620.522 51.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 620.522 51.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d00e742b-56ec-4878-a8d3-a9101fd640a6")
+		)
+		(instances
+			(project "Transiluminador"
+				(path "/3bccb558-cfc1-47b0-87de-a688fdd981c6"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_Dual_NPN_NPN_BRT_E1B1C2E2B2C1")
 		(at 288.925 147.955 0)
 		(mirror y)
@@ -20341,6 +20713,74 @@
 			(project "main_truck_datalogger_v2"
 				(path "/cedd96b1-68a0-4db0-9cc4-66478501b885"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 615.442 36.576 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8916359d-3dac-46eb-9c5f-6e2dd9efb65c")
+		(property "Reference" "J2"
+			(at 616.077 31.369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 616.077 33.909 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 615.442 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 615.442 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 615.442 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cad799f-581f-46b8-9e91-81ca4adf1fe9")
+		)
+		(pin "2"
+			(uuid "89cd3112-3ee2-476a-94bc-e255d7d301ba")
+		)
+		(instances
+			(project "Transiluminador"
+				(path "/3bccb558-cfc1-47b0-87de-a688fdd981c6"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -21698,6 +22138,82 @@
 			(project "ESP32_iow-Labs_v1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IoWLabs:RES")
+		(at 620.522 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a37c0fcc-11ac-4fcf-b374-d53f6044b847")
+		(property "Reference" "R27"
+			(at 614.807 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 617.1184 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 623.062 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 623.062 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 620.522 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 620.522 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c57861e-a764-4e08-acdf-b268d6a69beb")
+		)
+		(pin "2"
+			(uuid "62dd1d52-0d6e-4a04-afd5-aa0a35b8cb61")
+		)
+		(instances
+			(project "Transiluminador"
+				(path "/3bccb558-cfc1-47b0-87de-a688fdd981c6"
+					(reference "R27")
 					(unit 1)
 				)
 			)
